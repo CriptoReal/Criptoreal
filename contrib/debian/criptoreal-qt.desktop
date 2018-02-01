@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Criptoreal
+Comment=Criptoreal P2P Cryptocurrency
+Comment[fr]=Criptoreal, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Criptoreal, eşten eşe kriptografik sanal para birimi
+Exec=criptoreal-qt %u
+Terminal=false
+Type=Application
+Icon=criptoreal128
+MimeType=x-scheme-handler/criptoreal;
+Categories=Office;Finance;

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/criptoreal_bg.qm</file>
+        <file alias="de">locale/criptoreal_de.qm</file>
+        <file alias="en">locale/criptoreal_en.qm</file>
+        <file alias="es">locale/criptoreal_es.qm</file>
+        <file alias="fi">locale/criptoreal_fi.qm</file>
+        <file alias="fr">locale/criptoreal_fr.qm</file>
+        <file alias="it">locale/criptoreal_it.qm</file>
+        <file alias="ja">locale/criptoreal_ja.qm</file>
+        <file alias="pl">locale/criptoreal_pl.qm</file>
+        <file alias="pt">locale/criptoreal_pt.qm</file>
+        <file alias="ru">locale/criptoreal_ru.qm</file>
+        <file alias="sk">locale/criptoreal_sk.qm</file>
+        <file alias="sv">locale/criptoreal_sv.qm</file>
+        <file alias="vi">locale/criptoreal_vi.qm</file>
+        <file alias="zh_CN">locale/criptoreal_zh_CN.qm</file>
+        <file alias="zh_TW">locale/criptoreal_zh_TW.qm</file>
+    </qresource>
+</RCC>

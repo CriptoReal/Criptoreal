@@ -1,0 +1,6 @@
+usr/local/bin/criptoreal-qt usr/bin
+share/pixmaps/criptoreal32.xpm usr/share/pixmaps
+share/pixmaps/criptoreal16.xpm usr/share/pixmaps
+share/pixmaps/criptoreal128.png usr/share/pixmaps
+debian/criptoreal-qt.desktop usr/share/applications
+debian/criptoreal-qt.protocol usr/share/kde4/services/
