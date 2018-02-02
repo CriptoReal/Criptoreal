@@ -195,7 +195,7 @@ Detailed [change log](https://github.com/criptoreal/criptoreal/compare/v0.12.1.x
 - [`5f4362cb8`](https://github.com/criptoreal/criptoreal/commit/5f4362cb8) fix SPORK_5_INSTANTSEND_MAX_VALUE validation in CWallet::CreateTransaction (#1619)
 - [`d7a8489f3`](https://github.com/criptoreal/criptoreal/commit/d7a8489f3) Fix masternode score/rank calculations (#1620)
 - [`b41f8d3dd`](https://github.com/criptoreal/criptoreal/commit/b41f8d3dd) fix instantsend-related RPC output (#1628)
-- [`502748487`](https://github.com/criptoreal/criptoreal/commit/502748487) bump MIN_INSTANTSEND_PROTO_VERSION to 70208 (#1650)
+- [`502748487`](https://github.com/criptoreal/criptoreal/commit/502748487) bump MIN_INSTANTSEND_PROTO_VERSION to 70209 (#1650)
 - [`788ae63ac`](https://github.com/criptoreal/criptoreal/commit/788ae63ac) Fix edge case for IS (skip inputs that are too large) (#1695)
 - [`470e5435c`](https://github.com/criptoreal/criptoreal/commit/470e5435c) remove InstantSend votes for failed lock attemts after some timeout (#1705)
 - [`a9293ad03`](https://github.com/criptoreal/criptoreal/commit/a9293ad03) update setAskFor on TXLOCKVOTE (#1713)
@@ -333,7 +333,7 @@ Detailed [change log](https://github.com/criptoreal/criptoreal/compare/v0.12.1.x
 - [`c608bbec1`](https://github.com/criptoreal/criptoreal/commit/c608bbec1) Pass reference when calling HasPayeeWithVotes (#1569)
 - [`b22cda4df`](https://github.com/criptoreal/criptoreal/commit/b22cda4df) typo: "Writting" -> "Writing" (#1605)
 - [`ace00175c`](https://github.com/criptoreal/criptoreal/commit/ace00175c) build: silence gcc7's implicit fallthrough warning (#1622)
-- [`02e882c3d`](https://github.com/criptoreal/criptoreal/commit/02e882c3d) bump MIN_MASTERNODE_PAYMENT_PROTO_VERSION_2 and PROTOCOL_VERSION to 70208 (#1636)
+- [`02e882c3d`](https://github.com/criptoreal/criptoreal/commit/02e882c3d) bump MIN_MASTERNODE_PAYMENT_PROTO_VERSION_2 and PROTOCOL_VERSION to 70209 (#1636)
 - [`d3829e55b`](https://github.com/criptoreal/criptoreal/commit/d3829e55b) fix BIP68 granularity and mask (#1641)
 - [`72b221f74`](https://github.com/criptoreal/criptoreal/commit/72b221f74) Revert "fix BIP68 granularity and mask (#1641)" (#1647)
 - [`381ffdc4b`](https://github.com/criptoreal/criptoreal/commit/381ffdc4b) Fork testnet to test 12.2 migration (#1660)
@@ -407,4 +407,3 @@ These release are considered obsolete. Old changelogs can be found here:
 - [v0.11.0](release-notes/criptoreal/release-notes-0.11.0.md) released Jan/15/2015
 - [v0.10.x](release-notes/criptoreal/release-notes-0.10.0.md) released Sep/25/2014
 - [v0.9.x](release-notes/criptoreal/release-notes-0.9.0.md) released Mar/13/2014
-

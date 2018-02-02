@@ -86,7 +86,7 @@ using it, please follow one of the guides and setup a remote masternode instead.
 Dropping old (pre-12.2) peers
 -----------------------------
 
-Connections from peers with protocol lower than 70208 are no longer accepted.
+Connections from peers with protocol lower than 70209 are no longer accepted.
 
 Other improvements and bug fixes
 --------------------------------
@@ -173,7 +173,7 @@ See detailed [change log](https://github.com/criptoreal/criptoreal/compare/v0.12
 ### Network/Sync:
 - [`5d58dd90c`](https://github.com/criptoreal/criptoreal/commit/5d58dd90c) Make sure to clear setAskFor in Criptoreal submodules (#1730)
 - [`328009749`](https://github.com/criptoreal/criptoreal/commit/328009749) fine-tune sync conditions in getblocktemplate (#1739)
-- [`362becbcc`](https://github.com/criptoreal/criptoreal/commit/362becbcc) Bump MIN_PEER_PROTO_VERSION to 70208 (#1772)
+- [`362becbcc`](https://github.com/criptoreal/criptoreal/commit/362becbcc) Bump MIN_PEER_PROTO_VERSION to 70209 (#1772)
 - [`930afd7df`](https://github.com/criptoreal/criptoreal/commit/930afd7df) Fix mnp and mnv invs (#1775)
 - [`63e306148`](https://github.com/criptoreal/criptoreal/commit/63e306148) Improve sync (#1779)
 - [`a79c97248`](https://github.com/criptoreal/criptoreal/commit/a79c97248) Fix ProcessVerifyBroadcast (#1780)
@@ -257,4 +257,3 @@ These release are considered obsolete. Old release notes can be found here:
 - [v0.11.0](release-notes/criptoreal/release-notes-0.11.0.md) released Jan/15/2015
 - [v0.10.x](release-notes/criptoreal/release-notes-0.10.0.md) released Sep/25/2014
 - [v0.9.x](release-notes/criptoreal/release-notes-0.9.0.md) released Mar/13/2014
-
