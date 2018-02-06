@@ -86,7 +86,7 @@ using it, please follow one of the guides and setup a remote masternode instead.
 Dropping old (pre-12.2) peers
 -----------------------------
 
-Connections from peers with protocol lower than 70209 are no longer accepted.
+Connections from peers with protocol lower than 70210 are no longer accepted.
 
 Other improvements and bug fixes
 --------------------------------

@@ -1,4 +1,4 @@
-Criptoreal Core v 1.0.1
+Criptoreal Core staging tree 0.12.2
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/criptoreal/criptoreal.svg?branch=master)](https://travis-ci.org/criptoreal/criptoreal) `develop:` [![Build Status](https://travis-ci.org/criptoreal/criptoreal.svg?branch=develop)](https://travis-ci.org/criptoreal/criptoreal/branches)
@@ -9,14 +9,14 @@ https://www.criptoreal.org
 What is Criptoreal?
 ----------------
 
-Criptoreal is a new digital currency that enables anonymous, instant
+Criptoreal is an experimental new digital currency that enables anonymous, instant
 payments to anyone, anywhere in the world. Criptoreal uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
 are carried out collectively by the network. Criptoreal Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Criptoreal Core software, see https://www.criptoreal.org/.
+the Criptoreal Core software, see https://www.criptoreal.org/get-criptoreal/.
 
 
 License
@@ -61,3 +61,17 @@ Changes should be tested by somebody other than the developer who wrote the
 code. This is especially important for large or high-risk changes. It is useful
 to add a test plan to the pull request description if testing the changes is
 not straightforward.
+
+Translations
+------------
+
+Changes to translations as well as new translations can be submitted to
+[Criptoreal Core's Transifex page](https://www.transifex.com/projects/p/criptoreal/).
+
+Translations are periodically pulled from Transifex and merged into the git repository. See the
+[translation process](doc/translation_process.md) for details on how this works.
+
+**Important**: We do not accept translation changes as GitHub pull requests because the next
+pull from Transifex would automatically overwrite them again.
+
+Translators should also follow the [forum](https://www.criptoreal.org/forum/topic/criptoreal-worldwide-collaboration.88/).
