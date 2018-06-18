@@ -1237,17 +1237,17 @@ CAmount GetBlockSubsidy(int nPrevBits, int nHeight, const Consensus::Params& con
 
 
           if (nHeight == 1)
-              return 500000 * COIN;  // Dev fund for further development reduced from 1mil on old chain
+              return 500000 * COIN;  // Dev fund for further development
           else if (nHeight == 2)
               return 375000 * COIN;  // private CFC locked for 3 years
           else if (nHeight == 3)
               return 375000 * COIN; // private CFC locked for 3 years
           else if (nHeight == 4)
-              return 375000 * COIN; // private CFC locked for 3 years
+              return 375000 * COIN; // SWAP
           else if (nHeight == 5)
-              return 375000 * COIN; // private CFC locked 3 years
+              return 375000 * COIN; // SWAP
           else if (nHeight == 6)
-              return 1000000 * COIN;  //  CFC - 20 masternode sale - reduced from 1875k on old chain
+              return 1000000 * COIN;  //  Half for BTCT bounty campaign, other half for more bounties
           else if (nHeight == 7)
               return 200000 * COIN;  // Bounty Fund - reduced from 450k on old chain
           else if (nHeight == 8)
@@ -1256,6 +1256,8 @@ CAmount GetBlockSubsidy(int nPrevBits, int nHeight, const Consensus::Params& con
               return 1200000 * COIN;  // SWAP - aproximately the amount that has been mined on the old chain
           if (nHeight >= 10 && nHeight <= 5000)
                   return 6 * COIN;  // instamine protection for about a week.
+          if (nHeight >= 105300 && nHeight <= 824999)
+                  return 60 * COIN;  // reduced reward for NH.
 
 
     // LogPrintf("height %u diff %4.2f reward %d\n", nPrevHeight, dDiff, nSubsidyBase);

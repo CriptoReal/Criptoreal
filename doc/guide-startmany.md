@@ -8,7 +8,7 @@
 2. Click the Receive tab.
 3. Fill in the form to request a payment.
     * Label: mn01
-    * Amount: 1000 (optional)
+    * Amount: 50000 (optional)
     * Click *Request payment* button
 5. Click the *Copy Address* button
 
@@ -16,9 +16,9 @@ Create a new wallet address for each Masternode.
 
 Close your QT Wallet.
 
-### Send 1000 CRS to New Addresses
+### Send 50000 CRS to New Addresses
 
-Send exactly 1000 CRS to each new address created above.
+Send exactly 50000 CRS to each new address created above.
 
 ### Create New Masternode Private Keys
 
@@ -83,13 +83,13 @@ If you generated a new masternode private key, you will need to update the `mast
 
 ### Remote
 
-If your remote server is not running, start your remote daemon as you normally would. 
+If your remote server is not running, start your remote daemon as you normally would.
 
 You can confirm that remote server is on the correct block by issuing
 
 ```criptoreal-cli getinfo```
 
-and comparing with the official explorer at https://explorer.criptoreal.org/chain/Criptoreal
+and comparing with the official explorer at https://criptoreal.info
 
 ### Local
 
@@ -120,7 +120,7 @@ criptoreal-cli masternode status
 {
     "outpoint" : "<collateral_output>-<collateral_output_index>",
     "service" : "<ipaddress>:<port>",
-    "pubkey" : "<1000 CRS address>",
+    "pubkey" : "<50000 CRS address>",
     "status" : "Masternode successfully started"
 }
 ```
@@ -128,6 +128,6 @@ Command output should have "_Masternode successfully started_" in its `status` f
 
 ### Local
 
-Search your Masternodes on https://criptorealninja.pl/masternodes.html
+Search your Masternodes on https://masternode.criptoreal.org
 
 _Hint: Bookmark it, you definitely will be using this site a lot._

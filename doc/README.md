@@ -1,7 +1,7 @@
-Criptoreal Core 0.12.1
+Criptoreal Core 1.2.0
 =====================
 
-This is the official reference wallet for Criptoreal digital currency and comprises the backbone of the Criptoreal peer-to-peer network. You can [download Criptoreal Core](https://www.criptoreal.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Criptoreal digital currency and comprises the backbone of the Criptoreal peer-to-peer network. You can [download Criptoreal Core](https://www.criptoreal.org/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
@@ -24,10 +24,10 @@ Drag Criptoreal-Qt to your applications folder, and then run Criptoreal-Qt.
 
 ### Need Help?
 
-* See the [Criptoreal documentation](https://criptoreal.atlassian.net/wiki/display/DOC)
+* See the [Criptoreal documentation](https://criptoreal.org)
 for help and more information.
-* Ask for help on [#criptoreal](http://webchat.freenode.net?channels=criptoreal) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=criptoreal).
-* Ask for help on the [CriptorealTalk](https://criptorealtalk.org/) forums.
+* Ask for help on [#tech-support](https://discord.gg/SUHcbyv) on Discord.
+* Ask for help on the [CriptorealTalk](https://www.facebook.com/groups/Criptoreal/) Facebook Group.
 
 Building
 ---------------------

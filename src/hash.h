@@ -15,9 +15,9 @@
 #include "uint256.h"
 #include "version.h"
 
-#include "crypto/sph_blake.h"
-#include "crypto/Lyra2Z.h"
-#include "crypto/Lyra2.h"
+#include "crypto/Lyra2Z/sph_blake.h"
+#include "crypto/Lyra2Z/Lyra2Z.h"
+#include "crypto/Lyra2Z/Lyra2.h"
 
 
 
