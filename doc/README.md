@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Criptoreal Core 1.2.0
+=======
+Criptoreal Core 1.1.0
+>>>>>>> 7b059cc70442b0c64cbeae63f1345cfc8cb249a0
 =====================
 
 This is the official reference wallet for Criptoreal digital currency and comprises the backbone of the Criptoreal peer-to-peer network. You can [download Criptoreal Core](https://www.criptoreal.org/) or [build it yourself](#building) using the guides below.
